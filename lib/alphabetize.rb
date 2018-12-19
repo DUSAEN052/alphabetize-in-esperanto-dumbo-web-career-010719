@@ -8,5 +8,5 @@ def alphabetize(arr)
       output << e_a.index(letter)
     end
   end
-
+  puts output
 end
