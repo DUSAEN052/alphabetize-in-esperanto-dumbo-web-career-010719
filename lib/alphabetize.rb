@@ -4,8 +4,9 @@ def alphabetize(arr)
   
   arr.sort_by do |str|
     str.split("").map do |letter|
-      puts e_a.index(letter)
+      e_a.index(letter)
     end
+    puts str
   end
 
 end
