@@ -6,7 +6,6 @@ def alphabetize(arr)
     str.split("").map do |letter|
       e_a.index(letter)
     end
-    puts str
   end
 
 end
