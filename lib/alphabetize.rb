@@ -8,5 +8,8 @@ def alphabetize(arr)
       e_a.index(letter)
     end
   end
-
+  
+  "mi amas vin".split do |letter|
+    puts e_a.index(letter)
+  end
 end
