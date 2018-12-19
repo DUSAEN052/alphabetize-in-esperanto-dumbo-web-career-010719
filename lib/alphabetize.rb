@@ -9,7 +9,7 @@ def alphabetize(arr)
     end
   end
   
-  "mi amas vin".split("").map do |letter|
+  "pacon".split("").map do |letter|
     puts e_a.index(letter)
   end
 end
