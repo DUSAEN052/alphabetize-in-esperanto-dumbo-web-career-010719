@@ -9,7 +9,7 @@ def alphabetize(arr)
     end
   end
   
-  "pacon".split("").map do |letter|
+  "ĉu vi parolas esperanton".split("").map do |letter|
     puts e_a.index(letter)
   end
 end
