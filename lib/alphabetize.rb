@@ -2,7 +2,7 @@ def alphabetize(arr)
   # code here
   e_a = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
-  arr.each do |str|
+  arr.sort_by do |str|
     str.split("").map do |letter|
       e_a.index(letter)
     end
